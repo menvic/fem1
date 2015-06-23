@@ -1,0 +1,689 @@
+/**
+ * 	David Styles
+ */
+
+
+/*.contentImage{
+  height:auto !important;
+}*/
+
+.wrap {
+  max-width: 107rem;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 20px 0 20px;
+}
+
+.copyright{
+		background:#CCC;
+		font-size:12px;
+		padding:15px;
+		clear:both;
+		margin: 10px 0 0 0;
+		width:100%;
+    position: absolute;
+}
+
+#StickyBox{
+		/*z-index:-1;*/
+}
+
+.titlesection {
+	width: 100%;
+	margin:0 auto;
+	padding:0 5px 0 5px;
+  clear:both;
+}
+
+header{
+	position:relative;
+}
+
+header .btn-look {
+  /*background: url("../img/womens-health/btn-look.jpg");*/
+  display: block;
+  width: 214px;
+  height: 26px;
+  position: absolute;
+  left: 495px;
+  top: 20px;
+}
+
+header .login {
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+header .login h4 {
+  font-weight: 400;
+  font-size: 11px;
+  margin: 10px 0;
+}
+
+header .top-link {
+  width: 590px;
+  position: absolute;
+  right: 0;
+  top: 68px;
+  font-size: 11px;
+  text-align: right;
+}
+header .login .btn-login {
+  /*background: url("../img/womens-health/btn-login.jpg");*/
+  width: 57px;
+  height: 16px;
+  display: inline-block;
+}
+
+header .top-link a {
+  color: #0044cc;
+  margin-right: 20px;
+}
+
+header .top-link a:last-child {
+  margin-right: 0;
+}
+
+.main-nav {
+		font-size: 12px;
+		line-height: 12px;
+		text-transform: uppercase;
+		display: block;
+		clear: both;
+		border-top: 1px solid black;
+		border-bottom: 3px solid black;
+		padding: 4px 0;
+		margin :0px 0px 20px 0px !important;
+		top:10px;
+		position: relative;
+}
+
+.main-nav a {
+		color: #333;
+		margin-left: 20px;
+		margin-right: 10px;
+}
+
+#topQuote {
+  background: #333333;
+  border-bottom: solid 8px #e8fd1c;
+  font-family: 'Open Sans', sans serif;
+  font-weight: 400;
+  font-size: .9em;
+  letter-spacing: 1px;
+  font-style: italic;
+  color: #fff;
+  padding:0 0 0 5px;
+  clear:both;
+  width:100%;
+  float:left;
+}
+
+header .login {
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+
+.weekpics {
+	float:left;
+	
+}
+.weekpics img{
+	width:50%;
+ 	float:left;
+ 	clear:left;
+}
+
+.results img {
+  float: left;
+  width: 45%;
+  padding: 0 10px 0 0;
+  /*height: 26em;*/
+}
+
+
+.weekfour {
+  width: 50% !important;
+  float: left !important;
+  /*height: 32em !important;*/
+}
+
+.contentImage {
+  clear: both;
+  top: 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.plc-bottle{
+  background-image:url('assets/plc-bottle.png');
+  width:100%;
+  position:relative;
+  height:20em;
+  background-repeat: no-repeat;
+  background-position: center;
+  clear:both;
+}
+
+.pcu-bottle{
+  background-image:url('assets/pcu-bottle.png');
+  width:100%;
+  position:relative;
+  height:20em;
+  background-repeat: no-repeat;
+  background-position: center;
+  clear:both;
+}
+
+/*.coupon{
+	clear:both;
+}*/
+/*.coupon p{
+	float:none;
+	clear:none;
+	width:auto;
+}*/
+
+
+.weekholders{
+  clear:both;
+}
+
+.media-body{
+  display:inline;
+}
+
+/**
+ * 	End of David Styles
+ */
+
+#navi {
+    width: 100%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0;
+    list-style: none;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc
+}
+#navi li {
+    float: left
+}
+#navi li a {
+    display: block;
+    padding: 8px 15px!important;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    border-right: 1px solid #ccc
+}
+.clearfix {
+    display: table;
+    clear: both;
+    float: none
+}
+.last-row {
+    margin-bottom: 60px
+}
+#sidebar {
+    width: 75px;
+    position: absolute;
+    margin-left: -105px;
+    margin-top: -25px;
+    padding: 6px;
+    background: #FFF;
+    z-index: 100
+}
+.row {
+    position: relative!important
+}
+.right-sidebar {
+    left: 730px;
+    top: 270px;
+    width: 498px;
+    padding: 40px;
+    height: 911px;
+    background: url("assets/bg-sidebar-right.jpg") no-repeat;
+    position: fixed
+}
+.right-sidebar .mag1 {
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 10px
+}
+.right-sidebar .mag2 {
+    float: left;
+    padding-bottom: 10px
+}
+.right-sidebar p {
+    font-size: 14px;
+    line-height: 128%
+}
+.right-sidebar .step {
+    line-height: 140%;
+    font-size: 14px
+}
+.right-sidebar .bottle-wrap {
+    margin-bottom: 15px
+}
+.right-sidebar .bottle-wrap a {
+    text-decoration: underline
+}
+.right-sidebar .bottle-wrap .bottle {
+    float: left;
+    margin-right: 10px
+}
+.right-sidebar .bottle-wrap .t-small {
+    font-size: 12px
+}
+.right-sidebar .bottle-wrap .yellow {
+    font-size: 12px;
+    background: yellow;
+    padding: 0 5px
+}
+
+.right-sidebar .bottle-wrap .arrow-red .yellow .a {
+    color: #000
+}
+
+
+
+.right-sidebar .bottle-wrap .arrow-red {
+    /*background: url("scroller/main_files/iconRedArrow.png") no-repeat;*/
+    padding-left: 30px;
+    display: inline-block
+}
+.tweet-wrap {
+    width: 100%;
+    margin: 10px auto 15px 0;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0 0 10px #ccc;
+    position: relative;
+    padding: 15px 15px 0 15px;
+    top:10px;
+    clear:both;
+    margin-bottom: 20px;
+}
+.tweet-wrap .follow {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 65px;
+    height: 20px;
+    cursor: pointer;
+    /*background: url("scroller/main_files/follow.jpg") no-repeat*/
+}
+.tweet-wrap .txt1 .model {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url("assets/model1.jpg") no-repeat;
+    margin-right: 10px
+}
+.tweet-wrap .txt1 .model2 {
+    background: url("assets/model2.jpg") no-repeat
+}
+.tweet-wrap .txt1 .model3 {
+    background: url("assets/model3.jpg") no-repeat
+}
+.tweet-wrap .txt1 strong {
+    font-size: 18px;
+    display: inline-block;
+    /*background: url("scroller/main_files/check.jpg") no-repeat center right;*/
+    padding-right: 30px
+}
+.tweet-wrap .txt1 span {
+    display: block
+}
+.tweet-wrap .txt2 {
+    font-size: 18px;
+    font-family: georgia, serif;
+    padding: 10px 0
+}
+.tweet-wrap .txt2 span {
+    color: #0099bb
+}
+.tweet-wrap .txt3 {
+    border-top: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 30px;
+    /*background: url("scroller/main_files/tweet-bot.jpg") no-repeat center right*/
+}
+.sticky-wrapper {
+    height: 0!important
+}
+.right-sidebar {
+    left: auto;
+    top: 0;
+    position: absolute
+}
+.left-container{
+	width:50%;
+	float:left;
+	overflow:hidden;
+}
+.right-container {
+	width:50%;
+	position: relative;
+	float:right;
+    /*margin-left: 622px*/
+}
+#footer .container {
+    max-width: 600px;
+    margin: 0;
+}
+.col-md-7 {
+    text-align: left!important
+}
+.main-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 38px
+}
+.main-title u {
+    font-size: 45px
+}
+.likes {
+    background: url("assets/likes.jpg") no-repeat left center;
+    font-size: 11px;
+    color: #4c4c4a;
+    padding-left: 75px;
+    line-height: 25px;
+    margin: 10px 0 0 0
+}
+.likes span {
+    color: #2e497aƒ
+}
+.breadcrumbs {
+    font-weight: 900;
+    padding: 0;
+    border-bottom: 2px solid #444
+}
+.breadcrumbs a {
+    font-size: 13px;
+    color: #666
+}
+.breadcrumbs .current {
+    color: #007ee8
+}
+.fit-date {
+    font-size: 13px;
+    color: #333
+}
+.fit-date span {
+    color: #007ee8
+}
+.bottle-wrap a {
+    color: white
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /*.right-container {
+        margin-left: 562px
+   }
+   #footer .container {
+       max-width: 540px
+  }*/
+
+
+}
+@media screen and (max-width: 991px) {
+
+.weekfour {
+  width: 50% !important;
+  float: left !important;
+  /*height: 46em !important;*/
+}
+
+
+.coupon {
+    border: 5px dashed red;
+    padding: 20px;
+    margin: 20px 0
+}
+
+  .topCoupon{
+  display:block !important;
+  }
+
+  .desktopheader{
+    display:none;
+  }
+
+  .resizeheader{
+    display:block !important;
+  }
+  .resizeheader div { 
+    width:100%;
+  }
+
+  .resizeheader img{
+    margin:0 auto 10px ;
+    width:30%;
+  /*  float:left;*/
+    clear:both;
+  }
+
+  .resizeheader .subscribe{
+    margin-top: 0 !important;
+  }
+	
+	.wrap {
+	max-width: 107rem; 
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 10px 0 10px;
+	}
+
+	header h1{
+		width:100%;
+	}
+
+	header img{
+		width:100%;
+		padding:0 20px 0 20px;
+	}
+
+	header .btn-look{
+		display:none;
+	}
+	
+	header .login{
+		display:none;
+	}
+	
+	header .top-link{
+		display:none;
+	}
+
+	.main-nav {
+		display:none;
+	}
+
+	.left-container{
+		width:100%;
+		padding: 0 10px 0 10px;
+	}
+    #StickyBox-sticky-wrapper {
+        display: none
+   }
+   #StickyBox-sticky-wrapper .right-sidebar {
+       display: none
+  }
+  #sidebar.stickySocial {
+      display: none
+ }
+ #footer .container {
+     max-width: 720px
+}
+}
+
+@media screen and (max-width: 820px) {
+
+.resizeheader img{
+  width:38%;
+}
+
+@media screen and (max-width: 720px) {
+
+.resizeheader img{
+  width:50%;
+}
+
+.weekfour {
+  /*height:40em !important;*/
+}
+
+}
+@media screen and (max-width: 991px) {
+	.main-title , .main-title span  {
+	font-size:26px;
+	width:100%;
+	float:left;
+	clear:both;
+	text-align:left;
+}
+
+.main-title u {
+	font-size:38px;
+}
+}
+
+
+@media screen and (max-width: 490px) {
+
+.weekfour{
+  /*height:30em !important;*/
+}
+}
+
+@media screen and (max-width: 481px) {
+
+
+  .resizeheader div { 
+    width:100%;
+    padding:0;
+  }
+
+}
+
+
+@media screen and (max-width: 421px) {
+
+
+  .resizeheader div { 
+    width:100%;
+    padding:0 20px;
+  }
+
+  .resizeheader img{
+    margin:0 auto 10px;
+    width:100%;
+  /*  float:left;*/
+    clear:both;
+  }
+
+
+
+.subscribe{
+  display:none;
+}
+
+.calltoactionlink{
+  font-size: 12px; 
+  width:100% !important;
+  float:left;
+  text-align:center;
+}
+
+.wrap {
+max-width: 107rem;
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+padding: 0 5px 0 5px;
+}
+
+.main-title , .main-title span  {
+	font-size:20px;
+	width:100%;
+	float:left;
+	clear:both;
+	text-align:left;
+}
+
+.main-title u {
+	font-size:20px;
+}
+
+/*img {
+	width:100%;
+}*/
+
+.results img {
+  float: left;
+  width: 45%;
+  padding: 0 10px 0 0;
+  /*height: 250px;*/
+}
+
+
+.weekfour {
+  width: 50% !important;
+  float: left !important;
+  height: auto !important;
+}
+
+
+
+
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background-color: black;
+}
+.modal-backdrop.hide {
+    display: none
+}
+.exit-modal {
+    /*background: url("scroller/main_files/exit-pop.png") no-repeat!important;*/
+    width: 691px;
+    height: 410px;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -354px;
+    position: fixed;
+    z-index: 1040;
+    cursor: pointer
+}
+.exit-modal .modal-body {
+    padding: 0
+}
+.exit-modal a {
+    display: block;
+    width: 691px;
+    height: 410px
+}
+.exit-modal .exit-banner {
+    margin: 0;
+    /*background: url("scroller/main_files/exit-pop.png") no-repeat!important;*/
+    width: 691px;
+    height: 410px;
+    cursor: pointer
+}
+
+/* Localized */
