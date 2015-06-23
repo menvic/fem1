@@ -40,14 +40,12 @@
         <script type="text/javascript">
                     window.history.pushState('back.php', 'Other Page', 'back.php');
                     window.history.pushState('index.html', 'Initial Page', 'index.html');
-
                     window.addEventListener("popstate", function (e) {
                         if (document.URL.indexOf("back.php") >= 0)
                         {
                             document.location.href = document.location;
                         }
                     });
-
                     function getNowDate() {
                         // Array of day names
                         var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday",
@@ -62,7 +60,6 @@
                                 now.getDate() + ", " + now.getFullYear();
                     }
         </script>
-
         <main class="wrap">	
             <header class="resizeheader" style="display:none;">
                 <div>
@@ -78,7 +75,6 @@
                     </center>
                 </div>
             </header>
-
             <header class="desktopheader">
                 <div>
                     <h1>
@@ -96,7 +92,6 @@
                         </a>
                         <h4>Not a member? <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Registration </a> is free and fun!</h4>
                     </div>
-
                     <nav class="top-link">
                         <a href="http://mimserv.com/thrive/path/out.php" target="_blank">FREE NEWSLETTER</a>
                         <a href="http://mimserv.com/thrive/path/out.php" target="_blank">SOUND OFF!</a>
@@ -198,7 +193,6 @@
                     breakthrough. <em>Keep reading and you'll find out why we created this special report.</em>
                 </p>
                 <div style="clear: both;"></div>
-
                 <div class="coupon topCoupon" style="display:none;">
                     <p style="color: #ff0000;">
                         <strong>
@@ -260,7 +254,6 @@
                         </span>
                     </div>
                 </div>
-
                 <div class="results" style="background: #ffffcc;text-align: center">
                     <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">
                         <img class="contentImage" style="width:100%;" alt="" src="./assets/no-gimmicks.jpg">
@@ -359,7 +352,6 @@
                     not significantly changed their current lifestyles.
                 </p>
                 <p></p>
-
                 <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
                     <img class="contentImage" alt="proof2-300x147" src="./assets/proof-2.jpg" style="text-align: center;width:100%;"></a>
                 <p></p>
@@ -1001,15 +993,12 @@
                     </a>
                 </div>
             </div>
-
             <div class="modal-backdrop in ng-hide" ng-show="m.exitmodal"></div>
             <!-- Localized -->
         </main>
         <p class="copyright"  align="center">
             2015 Copyright Women's Health Magazine. All Rights reserved.
         </p>
-
-
         <div id="ouibounce-moda">
             <div class="underla"></div>
             <div class="moda">    
@@ -1018,13 +1007,11 @@
                 </a> 
             </div>      
         </div>
-
         <script type="text/javascript">
                     $(window).load(function () {
                         $("#StickyBox").sticky({topSpacing: 0});
                         $(".stickySocial").sticky({topSpacing: 30});
                     });
-
                     var _ouibounce = ouibounce(document.getElementById('ouibounce-moda'), {
                         aggressive: true,
                         timer: 0,
@@ -1032,15 +1019,12 @@
                             console.log('ouibounce fired!');
                         }
                     });
-
                     $('body').on('click', function () {
                         $('#ouibounce-moda').hide();
                     });
-
                     $('#ouibounce-moda .moda-footer').on('click', function () {
                         $('#ouibounce-moda').hide();
                     });
-
                     $('#ouibounce-moda .moda').on('click', function (e) {
                         e.stopPropagation();
                     });
