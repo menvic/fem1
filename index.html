@@ -13,291 +13,262 @@
         <link href="./assets/css.css" rel="stylesheet" type="text/css">
         <link href="ouibounce.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script src="./assets/ouibounce.js"></script>
-        <script src="./assets/jquery.xp.js"></script>
-
-    <!--    <script>
-        jQuery(document).ready(function(){
-            $.exitsplash({
-                message:'*****************************************************\n\nWait!\n\nBefore you leave, please take a look at this limited time offer. \n\nRemember, this is an EXCLUSIVE FREE OFFER.\n\nClick Cancel to Start Your Trial of Garcinia Cambogia Pure Select today!\n\n*****************************************************',
-                exitpage:'http://iluv.clickbooth.com/?E=zfQvedgpci6N3pP7FvsOQW%2bBcOFZ49Be&s1=alert'
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/jquery.js"></script>
+        <script type="text/javascript" src="./assets/ouibounce.js"></script>
+        <script type="text/javascript" src="./assets/jquery.xp.js"></script>
+        <!--    <script>
+            jQuery(document).ready(function(){
+                $.exitsplash({
+                    message:'*****************************************************\n\nWait!\n\nBefore you leave, please take a look at this limited time offer. \n\nRemember, this is an EXCLUSIVE FREE OFFER.\n\nClick Cancel to Start Your Trial of Garcinia Cambogia Pure Select today!\n\n*****************************************************',
+                    exitpage:'http://iluv.clickbooth.com/?E=zfQvedgpci6N3pP7FvsOQW%2bBcOFZ49Be&s1=alert'
+                });
             });
-        });
-        </script>        -->
-
-
+            </script>        -->
     </head>
     <body class="ng-scope" ng-app="App" ng-controller="MainCtrl">
-    
-   <!--
-     <script type="text/javascript">
-          window.onbeforeunload = function() {
-		  window.onbeforeunload = null;
-          //location.assign('http://example.com');
-		  window.open("http://iluv.clickbooth.com/?E=zfQvedgpci6N3pP7FvsOQW%2bBcOFZ49Be&s1=newwindow","newwindow");
-          return "*****************************************************\n\nWait!\n\nBefore you leave, please take a look at this limited time offer. \n\nRemember, this is an EXCLUSIVE FREE OFFER.\n\nClick Cancel to Start Your Trial of Garcinia Cambogia Pure Select today!\n\n*****************************************************"
-      }
-  	  </script>  -->
-      
-      <!-- Back Redirect -->
-    <script type="text/javascript"> 
-	window.history.pushState('back.php', 'Other Page', 'back.php'); 
-	window.history.pushState('index.html', 'Initial Page', 'index.html'); 
-    </script> 
-     
-	
-	<script type="text/javascript"> 
-	window.addEventListener("popstate", function(e) { 
-	if(document.URL.indexOf("back.php") >= 0)
-	{ document.location.href = document.location; } }); 
-    </script>
-        
-	<main class="wrap">	
+        <!--
+          <script type="text/javascript">
+               window.onbeforeunload = function() {
+                       window.onbeforeunload = null;
+               //location.assign('http://example.com');
+                       window.open("http://iluv.clickbooth.com/?E=zfQvedgpci6N3pP7FvsOQW%2bBcOFZ49Be&s1=newwindow","newwindow");
+               return "*****************************************************\n\nWait!\n\nBefore you leave, please take a look at this limited time offer. \n\nRemember, this is an EXCLUSIVE FREE OFFER.\n\nClick Cancel to Start Your Trial of Garcinia Cambogia Pure Select today!\n\n*****************************************************"
+           }
+               </script>  -->
+        <!-- Back Redirect -->
+        <script type="text/javascript">
+                    window.history.pushState('back.php', 'Other Page', 'back.php');
+                    window.history.pushState('index.html', 'Initial Page', 'index.html');
 
-		<header class="resizeheader" style="display:none;">
-		
-			<div>
-			<center>
-			<a href="http://mimserv.com/thrive/path/out.php" target="_blank">
-			<img src="assets/logo.jpg" alt="Women's Health">
-			</a>
-			</center>
-			</div>
-			<div>
-			<center>
-			<img src="assets/label_subscribe.jpg" style="margin-top:55px" alt="Women's Health" class="subscribe">
-			</center>
-			</div>
+                    window.addEventListener("popstate", function (e) {
+                        if (document.URL.indexOf("back.php") >= 0)
+                        {
+                            document.location.href = document.location;
+                        }
+                    });
 
-		</header>
+                    function getNowDate() {
+                        // Array of day names
+                        var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday",
+                                "Thursday", "Friday", "Saturday");
+                        // Array of month Names
+                        var monthNames = new Array(
+                                "January", "February", "March", "April", "May", "June", "July",
+                                "August", "September", "October", "November", "December");
+                        var now = new Date();
+                        return dayNames[now.getDay()] + ", " +
+                                monthNames[now.getMonth()] + " " +
+                                now.getDate() + ", " + now.getFullYear();
+                    }
+        </script>
 
-        <header class="desktopheader">
-
-            <div>
-                <h1>
-                <a href="http://mimserv.com/thrive/path/out.php" target="_blank">
-                <img src="assets/logo.jpg" alt="Women's Health">
-                </a>
-                <img src="assets/label_subscribe.jpg" style="margin-top:55px" alt="Women's Health" class="subscribe">
-                </h1>
-                <a href="http://mimserv.com/thrive/path/out.php" class="btn-look">
-                <img src="assets/banner_looknaked.jpg" alt="SE BÄTTRE UT NAKEN! - DEN NYA BOKEN FRÅN WOMEN'S HEALTH VISA MIG!">
-                </a>
-                <div class="login">
-                    <a href="http://mimserv.com/thrive/path/out.php" class="btn-login">
-                    <img src="assets/btn_login.jpg" alt="Log In">
-                    </a>
-                    <h4>Not a member? <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Registration </a> is free and fun!</h4>
-                </div>
-
-                <nav class="top-link">
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">FREE NEWSLETTER</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">SOUND OFF!</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">SHOP</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">RSS</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">SITE MAP</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">HELP</a>
-                </nav>
-                <nav class="main-nav">
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Home</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Fitness</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Gossip</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Recipes</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Yoga</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Parenting</a>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Fashion</a>
-                </nav>
-
-            </div>
-        </header>
-
-		<div id="topQuote">
-			<div id="pagewrap">NO 1 Online magazine for women's trends , tips and advice. </div>
-		</div>
-    
-					<div class="titlesection">
-						<div class="breadcrumbs">
-						<a href="http://mimserv.com/thrive/path/out.php" target="_blank">HOME</a> &gt; <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Fitness</a> &gt; <a href="http://mimserv.com/thrive/path/out.php" target="_blank" class="current">Special Reports</a>
-						</div>
-						<script language="Javascript">
-						// Array of day names
-						var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
-						"Thursday","Friday","Saturday");
-						// Array of month Names
-						var monthNames = new Array(
-						"January","February","March","April","May","June","July",
-						"August","September","October","November","December");
-						var now = new Date();
-						document.write(dayNames[now.getDay()] + ", " +
-						monthNames[now.getMonth()] + " " +
-						now.getDate() + ", " + now.getFullYear());
-						// -->
-						</script> <span>in FITNESS</span>
-						<div class="likes">
-						18,763 people like this. <a href="http://mimserv.com/thrive/path/out.php">Sign UP</a> to see what your friends like.
-						</div>
-						<h2 class="main-title" style="margin-top:0;margin-bottom:0;padding:0;">
-						<span style="color: #ff0000;"> <u>SPECIAL REPORT</u>
-						:
-						</span>
-						Is it possible to lose 22.8 lbs of stomach fat in just 1 month? Women's Health Canada investigates.
-						</h2>
-						<div style="padding-bottom:10px;"> <em>This report was created by Women's Health to expose the truth behind a new diet sweeping Canada</em>
-						</div>
-                    </div>
-					<div class="left-container">
-                    <div style="height: 303px;" class="sticky-wrapper" id="sidebar-sticky-wrapper"><div id="sidebar-sticky-wrapper" class="sticky-wrapper" style="height: 303px;"><div id="" class="stickySocial" style="width: 75px; position: absolute; margin-left: -105px; margin-top: -25px; padding: 6px;">
-                        <p>
-                        <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">
-                        <img src="./assets/social-share.jpg" alt="" height="281" width="61">
+        <main class="wrap">	
+            <header class="resizeheader" style="display:none;">
+                <div>
+                    <center>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">
+                            <img src="assets/logo.jpg" alt="Women's Health">
                         </a>
-                        </p>
-                    </div></div></div>
-                    <p style="padding:10px 0;"> As Seen On:
-                    <img alt="" src="./assets/as-seen-on-logos.jpg" height="44" width="">
-                    </p>
-                    <div class="mainnewsimg ng-binding" style="font-size: 11.6px; line-height: 1.5em;width: 155px;float: left;margin: 0 20px 0 0;">
-                        <img alt="" src="./assets/reporter.jpg" height="166"> <strong>Staff reporter Katie Johnson</strong>
-                        investigates a weird weight loss solution that is quickly gaining popularity.
+                    </center>
+                </div>
+                <div>
+                    <center>
+                        <img src="assets/label_subscribe.jpg" style="margin-top:55px" alt="Women's Health" class="subscribe">
+                    </center>
+                </div>
+            </header>
+
+            <header class="desktopheader">
+                <div>
+                    <h1>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">
+                            <img src="assets/logo.jpg" alt="Women's Health">
+                        </a>
+                        <img src="assets/label_subscribe.jpg" style="margin-top:55px" alt="Women's Health" class="subscribe">
+                    </h1>
+                    <a href="http://mimserv.com/thrive/path/out.php" class="btn-look">
+                        <img src="assets/banner_looknaked.jpg" alt="SE BÄTTRE UT NAKEN! - DEN NYA BOKEN FRÅN WOMEN'S HEALTH VISA MIG!">
+                    </a>
+                    <div class="login">
+                        <a href="http://mimserv.com/thrive/path/out.php" class="btn-login">
+                            <img src="assets/btn_login.jpg" alt="Log In">
+                        </a>
+                        <h4>Not a member? <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Registration </a> is free and fun!</h4>
                     </div>
-                    <p>
+
+                    <nav class="top-link">
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">FREE NEWSLETTER</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">SOUND OFF!</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">SHOP</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">RSS</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">SITE MAP</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">HELP</a>
+                    </nav>
+                    <nav class="main-nav">
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Home</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Fitness</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Gossip</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Recipes</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Yoga</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Parenting</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Fashion</a>
+                    </nav>
+                </div>
+            </header>
+            <div id="topQuote">
+                <div id="pagewrap">NO 1 Online magazine for women's trends , tips and advice. </div>
+            </div>
+            <div class="titlesection">
+                <div class="breadcrumbs">
+                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank">HOME</a> &gt; <a href="http://mimserv.com/thrive/path/out.php" target="_blank">Fitness</a> &gt; <a href="http://mimserv.com/thrive/path/out.php" target="_blank" class="current">Special Reports</a>
+                </div>
+                <script language="Javascript">
+                            document.write(getNowDate());
+                </script> <span>in FITNESS</span>
+                <div class="likes">
+                    18,763 people like this. <a href="http://mimserv.com/thrive/path/out.php">Sign UP</a> to see what your friends like.
+                </div>
+                <h2 class="main-title" style="margin-top:0;margin-bottom:0;padding:0;">
+                    <span style="color: #ff0000;"> <u>SPECIAL REPORT</u>
+                        :
+                    </span>
+                    Is it possible to lose 22.8 lbs of stomach fat in just 1 month? Women's Health Canada investigates.
+                </h2>
+                <div style="padding-bottom:10px;"> <em>This report was created by Women's Health to expose the truth behind a new diet sweeping Canada</em>
+                </div>
+            </div>
+            <div class="left-container">
+                <div style="height: 303px;" class="sticky-wrapper" id="sidebar-sticky-wrapper">
+                    <div id="sidebar-sticky-wrapper" class="sticky-wrapper" style="height: 303px;">
+                        <div class="stickySocial" style="width: 75px; position: absolute; margin-left: -105px; margin-top: -25px; padding: 6px;">
+                            <p>
+                                <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">
+                                    <img src="./assets/social-share.jpg" alt="" height="281" width="61">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p style="padding:10px 0;"> As Seen On:
+                    <img alt="" src="./assets/as-seen-on-logos.jpg" height="44">
+                </p>
+                <div class="mainnewsimg ng-binding" style="font-size: 11.6px; line-height: 1.5em;width: 155px;float: left;margin: 0 20px 0 0;">
+                    <img alt="" src="./assets/reporter.jpg" height="166"> <strong>Staff reporter Katie Johnson</strong>
+                    investigates a weird weight loss solution that is quickly gaining popularity.
+                </div>
+                <p>
                     <span style="vertical-align:middle;">
-                    By
-                    <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">Katie Johnson</a>
+                        By
+                        <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">Katie Johnson</a>
                     </span>
                     |
                     <img style="width:15px;height:15px;verticle-align:middle;" src="./assets/pageviews.jpg" alt="views" title="views" height="15" width="15">
                     <span style="color:#ff0000;vertical-align:middle;">
-                    <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank" style="color:#ff0000;">2,391,558</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank" style="color:#ff0000;">2,391,558</a>
                     </span>
                     |
                     <img style="width:15px;height:15px;verticle-align:middle;" src="./assets/comments.jpg" alt="comments" title="comments" height="15" width="15">
                     <span style="color:#124878;vertical-align:middle;">
-                    <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank" style="color:#124878;">656</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank" style="color:#124878;">656</a>
                     </span>
-                    </p>
-                    <p> <strong>(Women's Health) -</strong>
+                </p>
+                <p> <strong>(Women's Health) -</strong>
                     For the past three months our readers have been going crazy
                     over two internet products that are helping women across the world lose
                     weight. This revolutionary system, called by some "The Holy Grail of
                     Weight Loss" has been featured on countless popular TV shows, proven to
                     be safe for ongoing use and best of all ? it's totally affordable for
                     anyone.
-                    </p>
-                    <p>
+                </p>
+                <p>
                     Waves of celebrities including Jennifer Aniston, Nicole Kidman
                     and Jennifer Lopez, have lost a significant amount of body fat with
                     just these 2 diet cleanses. The combined effect is clinically proven to
                     not just rapidly burn fat off your physique but as importantly, to flush
                     out all the destructive toxins in your body and increase your
                     metabolism, all without harming your immune system.
-                    </p>
-                    <p>
+                </p>
+                <p>
                     As we have often reported when researching the latest diet
                     trends, losing weight often feels like an impossible challenge and all
                     too frequently the results are painfully disappointing. However, after
                     an exhaustive research effort including interviewing actual dieters
                     using this exact system, we're more than excited about this
                     breakthrough. <em>Keep reading and you'll find out why we created this special report.</em>
-                    </p>
-                    <div style="clear: both;"></div>
-
-					<div class="coupon topCoupon" style="display:none;">
-                <p style="color: #ff0000;">
-                <strong>
-                IMPORTANT: *In clinical testing it was proven that you
-                must use BOTH products in this method (once daily) to achieve similar
-                results.
-                </strong>
                 </p>
-                <p></p>
-                <div>
-                    <span>
-                    <img class="alignleft" style="padding-bottom: 10px;" alt="" src="./assets/iconRedArrow.png" height="40" width="35"></span>
-                    <span class="step1">
-                    <span class="step2">Step 1</span>
-                    </span>
-                    <span class="step2">-</span>
-                    <span style="color: #3366ff;">
-                    <strong>
-                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-                    <span class="calltoactionlink" style="color: #3366ff;">Click Here To Get A Free Bottle Of Garcinias Pure</span>
-                    
-                    <div class="pcu-bottle"></div>
-                    </a>
-                    </strong>
-                    </span>
-                </div>
-                <div>
-                    <span class="ng-binding" style="background-color: #ffff66;">
-                    (Limited Product Available. Free Shipping Expires On: <script language="Javascript">
-                    <!--
-                    // Array of day names
-                    var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
-                    "Thursday","Friday","Saturday");
-                    // Array of month Names
-                    var monthNames = new Array(
-                    "January","February","March","April","May","June","July",
-                    "August","September","October","November","December");
-                    var now = new Date();
-                    document.write(dayNames[now.getDay()] + ", " +
-                    monthNames[now.getMonth()] + " " +
-                    now.getDate() + ", " + now.getFullYear());
-                    // -->
-                    </script>)
-                    </span>
-                </div>
-                <p></p>
-                <p></p>
-                <div>
-                    <span>
-                    <img class="alignleft" style="padding-bottom: 10px;" alt="" src="./assets/iconRedArrow.png" height="40" width="35"></span>
-                    <span class="step1">
-                    <span class="step2">Step 2</span>
-                    </span>
-                    <span class="step2">-</span>
-                    <span style="color: #3366ff;">
-                    <strong>
-                    <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
-                    <span class="calltoactionlink" style="color: #3366ff;">Click Here To Get A Free Bottle Of Ven Cleanse Detox</span>
-                    <div class="plc-bottle"></div>
-                    </a>
-                    <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
-                    <span style="color: #3366ff;">&nbsp;</span>
-                    </a>
-                    </strong>
-                    </span>
-                </div>
-                <div>
-                    <span class="ng-binding" style="background-color: #ffff66;">
-                    (Limited Product Available. Free Shipping Expires On: <script language="Javascript">
-                    <!--
-                    // Array of day names
-                    var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
-                    "Thursday","Friday","Saturday");
-                    // Array of month Names
-                    var monthNames = new Array(
-                    "January","February","March","April","May","June","July",
-                    "August","September","October","November","December");
-                    var now = new Date();
-                    document.write(dayNames[now.getDay()] + ", " +
-                    monthNames[now.getMonth()] + " " +
-                    now.getDate() + ", " + now.getFullYear());
-                    // -->
-                    </script>)
-                    </span>
-                </div>
-            </div>
+                <div style="clear: both;"></div>
 
-                    <div class="results" style="background: #ffffcc;text-align: center">
-                        <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">
-                        <img class="contentImage" style="width:100%;" alt="" src="./assets/no-gimmicks.jpg">
-                        </a>
+                <div class="coupon topCoupon" style="display:none;">
+                    <p style="color: #ff0000;">
+                        <strong>
+                            IMPORTANT: *In clinical testing it was proven that you
+                            must use BOTH products in this method (once daily) to achieve similar
+                            results.
+                        </strong>
+                    </p>
+                    <p></p>
+                    <div>
+                        <span>
+                            <img class="alignleft" style="padding-bottom: 10px;" alt="" src="./assets/iconRedArrow.png" height="40" width="35"></span>
+                        <span class="step1">
+                            <span class="step2">Step 1</span>
+                        </span>
+                        <span class="step2">-</span>
+                        <span style="color: #3366ff;">
+                            <strong>
+                                <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
+                                    <span class="calltoactionlink" style="color: #3366ff;">Click Here To Get A Free Bottle Of Garcinias Pure</span>
+                                    <span class="pcu-bottle"></span>
+                                </a>
+                            </strong>
+                        </span>
                     </div>
-                    <div class="tweet-wrap">
-                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php"><div class="follow"></div></a>
-                        <div class="txt1">
+                    <div>
+                        <span class="ng-binding" style="background-color: #ffff66;">
+                            (Limited Product Available. Free Shipping Expires On: <script language="Javascript">
+                                        document.write(getNowDate());
+                            </script>)
+                        </span>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <div>
+                        <span>
+                            <img class="alignleft" style="padding-bottom: 10px;" alt="" src="./assets/iconRedArrow.png" height="40" width="35"></span>
+                        <span class="step1">
+                            <span class="step2">Step 2</span>
+                        </span>
+                        <span class="step2">-</span>
+                        <span style="color: #3366ff;">
+                            <strong>
+                                <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
+                                    <span class="calltoactionlink" style="color: #3366ff;">Click Here To Get A Free Bottle Of Ven Cleanse Detox</span>
+                                    <span class="plc-bottle"></span>
+                                </a>
+                                <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
+                                    <span style="color: #3366ff;">&nbsp;</span>
+                                </a>
+                            </strong>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="ng-binding" style="background-color: #ffff66;">
+                            (Limited Product Available. Free Shipping Expires On: <script language="Javascript">
+                                        document.write(getNowDate());
+                            </script>)
+                        </span>
+                    </div>
+                </div>
+
+                <div class="results" style="background: #ffffcc;text-align: center">
+                    <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">
+                        <img class="contentImage" style="width:100%;" alt="" src="./assets/no-gimmicks.jpg">
+                    </a>
+                </div>
+                <div class="tweet-wrap">
+                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php"><div class="follow"></div></a>
+                    <div class="txt1">
                         <figure class="model model1"></figure>
                         <strong>Kim Kardashian</strong>
                         <span>@KimKardashian</span>
@@ -313,805 +284,766 @@
                 </div>
                 <div  style="background: #ffffcc;text-align: center">
                     <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">
-                    <img class="contentImage" style="width:100%;" alt="" src="./assets/kate.jpg">
+                        <img class="contentImage" style="width:100%;" alt="" src="./assets/kate.jpg">
                     </a>
                 </div>
                 <div class="tweet-wrap">
                     <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php"><div class="follow"></div></a>
                     <div class="txt1">
-                    <figure class="model model3"></figure>
-                    <strong>Kate Middleton</strong>
-                    <span>@PrincessKateM</span>
-                    <div class="clearfix"></div>
+                        <figure class="model model3"></figure>
+                        <strong>Kate Middleton</strong>
+                        <span>@PrincessKateM</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="txt2">Back in my favorite dress after the baby. Yay! <span>#garciniacambogia</span></div>
+                    <div class="txt3">
+                        <strong>17</strong>
+                        RETWEETS
+                        <strong>24</strong>
+                        FAVORITES
+                    </div>
                 </div>
-                <div class="txt2">Back in my favorite dress after the baby. Yay! <span>#garciniacambogia</span></div>
-                <div class="txt3">
-                    <strong>17</strong>
-                    RETWEETS
-                    <strong>24</strong>
-                    FAVORITES
-                </div>
-            </div>
-            <p>
-            The reason for why most diets fail, in our opinion, is that
-            they impose unrealistic restrictions on how you live your life. Some
-            advocate eating tons of protein while others emphasize restricting
-            carbohydrates. In either case, you're left with having to make rather
-            drastic changes to the types of food you eat and when you eat it. In
-            this special report, we take an in-depth look at an emerging and
-            promising weight loss trend that we believe is a game changer, that
-            won't require time in the gym or cutting your calories... and best of
-            all it won't break the bank.
-            </p>
-            <p>
-            You may have heard of the&nbsp;enormously popular
-            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-            <strong>Garcinias Pure</strong>
-            </a>
-            in the news. It's a completely organic&nbsp; pumpkin-shaped
-            fruit native to Indonesia - scientifically proven to tear away fat from
-            you body. In studies by renowned health research institution UCLA in Los
-            Angeles -
-            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-            <strong>Garcinias Pure</strong>
-            </a>
-            was proven to ignite your metabolism and your body's hidden
-            fat burning capabilities by 318% when taken regularly. However, the
-            problem encountered by many hoping to embrace this miracle dieting
-            system, is that nearly 90% of the imitation Garcinias Pure
-            products out there are NOT pure. Most fluctuate between the 60-70%
-            purity levels - so we tracked down the original 'Garcinias Pure' to
-            understand the difference.
-            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-            <strong>Garcinias Pure</strong>
-            </a>
-            Formula claimed they delivered 95% pure Garcinias Pure
-            extract to your body so to put it simply - we were intrigued.
-            </p>
-            <p>
-            To take our study a step further, we also analyzed and
-            discovered that those taking 'Garcinias Pure' who experienced the
-            most shocking weight loss results were also the study group that was
-            using the natural detoxifier '
-            <strong><a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a></strong>
-            ' as well. Together, testimonials claim the combined usage of
-            these two products led to significant weight loss, more energy and
-            generally a healthier day to-day feeling. If you're skeptical, you're
-            not alone. When we&nbsp;first learned about this weight loss combo, our
-            diet fad radar went off&nbsp;right away.
-            </p>
-            <p>
-            Nevertheless, as we began to&nbsp;investigate the countless
-            success stories reported by people from all around the globe, we decided
-            that this weight loss trend was worthy of a&nbsp; closer examination.
-            Moreover, we found it of particular interest that&nbsp;these people had
-            not significantly changed their current lifestyles.
-            </p>
-            <p></p>
-            
-            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-            <img class="contentImage" alt="proof2-300x147" src="./assets/proof-2.jpg" style="text-align: center;width:100%;"></a>
-            <p></p>
-            <p>
-            <strong>Jennifer McCarthy &amp; others from Hollywood,
-            California were reported to have lost a healthy 22.8 pounds in just 5 weeks
-            while being on the
-            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a>
-            and
-            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
-            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php"></a> combo diet.</strong>
-            </p>
-            <p>
-            In the story on her blog she states,
-            <strong>
-            "I couldn't&nbsp;believe how easy it was. I didn't change my
-            diet or my daily routine,&nbsp;but the fat melted off like it butter. I
-            love this stuff! Finally a diet&nbsp; that just works."
-            </strong>
-            </p>
-            <p>
-            For the Women's Health test, it was inevitable that I was to
-            be&nbsp;the guinea pig for this diet since I was about to get married. I
-            wanted to lose 19 pounds for my wedding. In order to try the Garcinias Pure and
-            <strong>
-            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
-            </strong>
-            diet, I ordered the two products online.&nbsp;Although there
-            are many Garcinia Cambogia Extract products available, I chose
-            <strong>
-            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a>
-            </strong>
-            on the basis that it had been clinically tested and approved
-            at GNP Labs in Los Angeles, California - an organization renowned for
-            their strict guidelines on weight management products.
-            </p>
-            <p>
-            The bottles of <strong><a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a></strong> and <strong><a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a></strong>&nbsp;were delivered in a few days after ordering, and shipping was free which was a nice bonus. <strong><a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a></strong>&nbsp;is one of the most concentrated and&nbsp;purest weight loss products on the market.
-            </p>
-            <p>
-            <strong>Garcinias Pure has been clinically proven to:</strong>
-            </p>
-            <ul>
-                <li>
-                    Deliver 4 Times More Weight Loss Than Diet and Exercise Alone
-                </li>
-                <li>Boosts Energy</li>
-                <li>
-                    Be Rich in Antioxidants - Beats Blueberries, and even Gogi Berries!!
-                </li>
-                <li>Promote Cardiovascular and Digestive Wellness</li>
-            </ul>
-            <p></p>
-            <p>
-            Although we were pretty skeptical, we&nbsp;wanted to find out
-            for ourselves if this product could actually do everything that it
-            claimed. Most of the success stories talk about&nbsp; combining
-            <strong>
-            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a>
-            </strong>
-            with a cleansing product called
-            <strong>
-            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
-            </strong>
-            to achieve maximum weight loss. The idea behind combining the
-            products is that while the Garcinias Pure encourages weight loss
-            and increases&nbsp; energy, Ven Cleanse Detox&nbsp;helps rid your body
-            of toxins and allows your body to work and burn calories more
-            efficiently for the long term. After further research, we put
-            <strong>
-            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
-            </strong>
-            to the test.
-            </p>
-            <strong>Ven Cleanse Detox&nbsp;has been clinically proven to:</strong>
-            <ul>
-                <li>
-                    Help Eliminate Extremely Damaging Toxins That Have Built Up Over the Years
-                </li>
-                <li>Destroy Harmful Parasites in Your Digestive Tract</li>
-                <li>
-                    Removes 'Sludge' From the Walls of the Stomach (that prevents Fat Burning!)
-                </li>
-                <li>Helps Get Rid of Gas and Bloating</li>
-                <li>Helps Regulate Your Metabolism</li>
-                <li>Increase Energy, Libido and Alertness</li>
-            </ul>
-            <p>
-            We loved the fact that the Ven Cleanse Detox&nbsp;product is backed by a 100% satisfaction guarantee.
-            </p>
-            <p>
-            <strong>
-            Putting the Garcinias Pure and Ven Cleanse Detox&nbsp;Combo to the Test
-            </strong>
-            </p>
-            <p>
-            Both the
-            <strong>
-            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" style="text-decoration: underline; color: #ff0000;" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a>
-            </strong>
-            and
-            <strong>
-            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" style="text-decoration: underline; color: #ff0000;" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
-            </strong>
-            arrived within 4 days of having placed my order online.
-            </p>
-            <ol>
-                <li>
-                    <span style="color: #3366ff;">
+                <p>
+                    The reason for why most diets fail, in our opinion, is that
+                    they impose unrealistic restrictions on how you live your life. Some
+                    advocate eating tons of protein while others emphasize restricting
+                    carbohydrates. In either case, you're left with having to make rather
+                    drastic changes to the types of food you eat and when you eat it. In
+                    this special report, we take an in-depth look at an emerging and
+                    promising weight loss trend that we believe is a game changer, that
+                    won't require time in the gym or cutting your calories... and best of
+                    all it won't break the bank.
+                </p>
+                <p>
+                    You may have heard of the&nbsp;enormously popular
                     <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-                    <span style="color: #3366ff;">
-                    <strong>
-                    Take one Garcinias Pure &nbsp;pill per day (in the morning)
-                    </strong>
-                    </span>
+                        <strong>Garcinias Pure</strong>
                     </a>
-                    </span>
-                </li>
-                <li>
-                    <span style="color: #3366ff;">
-                    <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
-                    <span style="color: #3366ff;">
-                    <strong>Take one Ven Cleanse Detox pill per day (in the evening)</strong>
-                    </span>
-                    </a>
-                    </span>
-                </li>
-            </ol>
-            <div class="results">
-                <p style="text-align:left;">
-                <strong>My Results</strong>
-                - I Dropped 19 pounds In Just 1 Month and Lost 3 Dress Sizes. I Nearly Cried!
-                <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-                <img class="contentImage" style="text-align: center;width:100%;" alt="4-weeks-1" src="./assets/before-after-4weeks.jpg"></a>
-                </p>
-                <div class="weekholders">
-                <p>
-                <strong>
-                <span class="step1">Week One:</span>
-                </strong>
-                </p>
-                <img src="assets/images/laurenpic1.jpeg" />
-                <p>
-                After one week on the diet using both products I was
-                surprised at the dramatic results. My energy level was up, and I wasn't
-                even hungry. A welcomed side effect of the
-                <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-                <strong>Garcinias Pure</strong>
-                </a>
-                and
-                <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
-                <strong>Ven Cleanse Detox</strong>
-                </a>
-                diet is its power to curb the appetite.
-                </p>
-                <p>
-                <strong>I honestly felt fantastic!</strong>
-                </p>
-                <p>
-                Best of all, I didn't even change anything about my daily
-                routine. On Day 7, I got on the scale and couldn't believe my eyes. I
-                had lost 4.4 pounds. But I still wasn't convinced, since they say you lose a
-                lot of water weight at the beginning of any diet. I wanted to wait and
-                see the results in the upcoming weeks. But it sure was looking up! I now
-                weighed under 125 pounds for the first time in years!
-                </p>
-                </div>
-                <div class="weekholders">
-                <p>
-                <strong>
-                <span class="step1">Week Two:</span>
-                </strong>
-                </p>
-                <img src="assets/images/laurenpic2.jpeg" />
-                <p>
-                After two weeks of using both supplements, I started the
-                week off with even more energy, and actually sleeping more soundly than
-                before. I was no longer waking up during the night and tossing and
-                turning because my body was actually able to relax (this is a result of
-                getting rid of the toxins, I think). Plus I still managed to lose
-                another 6 pounds, putting me at an unbelievable
-                <strong>10 pounds of weight loss, in just 2 weeks.</strong>
-                </p>
-                <p>
-                I must admit that I'm starting to believe that this diet is more than just a gimmick.
-                </p>
-                </div>
-                <div class="weekholders">
-                <p>
-                <strong>Week Three:</strong>
-                </p>
-                <img src="assets/images/laurenpic3.jpeg" />
-                <p>
-                After 3 weeks, all my doubts and skepticism had absolutely
-                vanished! I am down, 2 full dress sizes after losing another 3.2 pounds.
-                And I still have a ton of energy. Quite often, around the third week of
-                other diets, you tend to run out of steam. But with the
-                <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-                <strong>Garcinias Pure</strong>
-                </a>
-                and
-                <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
-                <strong>Ven Cleanse Detox</strong>
-                </a>
-                diet my energy levels didn't dip, instead they remain steady
-                throughout the day. I no longer need that cat nap around 3pm in the
-                afternoon! I am even noticing that my stomach is digesting food so much
-                better. No bloating or embarrassing gas after I eat.
-                </p>
-                </div>
-                <div class="weekholders">
-                <p>
-                <strong>Week Four:</strong>
-                </p>
-	                <img src="assets/images/laurenpic1.jpeg" class="weekfour" />
-	                <img src="assets/images/laurenpic3.jpeg" class="weekfour" />
-                <p>
-                After the fourth week, my final results were shocking. I lost an unbelievable 19 pounds since starting the
-                <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-                <strong>Garcinias Pure</strong>
-                </a>
-                and
-                <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
-                <strong>Ven Cleanse Detox</strong>
-                </a>
-                diet! Actually everyone at Women's Health is kicking
-                themselves for not having volunteered to be the guinea pig. Using the
-                Garcinias Pure and Ven Cleanse Detox in week 4,
-                <strong>I lost an additional 5.5 pounds</strong>
-                . The results are consistent! But to be honest, I really
-                didn't have much more than that left to lose. I am definitely going to
-                continue taking the Garcinias Pure afterwards because it has so
-                many antioxidants and vitamins that makes my skin look unbelievable.
-                </p>
-                <p>
-                <strong>I couldn't be any happier with the results.&nbsp;</strong>
-                <strong>
-                I Lost 19 pounds in 4 Weeks, No Special Diet, No Intense Exercise.
-                </strong>
-                </p>
-                </div>
-            </div>
-            <p>
-            In conclusion, if you are a little doubtful about the effects
-            of this diet, you need to try it for yourself; from our own test, the
-            results are real. We at Women's Health review more than 100 diets each
-            year, and we had our doubts initially, but we were quickly turned into
-            believers. After conducting our own study, we are pleased to see that
-            people really are finding success with the diet.
-            </p>
-            <div class="coupon">
-                <p style="color: #ff0000;">
-                <strong>
-                IMPORTANT: *In clinical testing it was proven that you
-                must use BOTH products in this method (once daily) to achieve similar
-                results.
-                </strong>
-                </p>
-                <p></p>
-                <div>
-                    <span>
-                    <img class="alignleft" style="padding-bottom: 10px;" alt="" src="./assets/iconRedArrow.png" height="40" width="35"></span>
-                    <span class="step1">
-                    <span class="step2">Step 1</span>
-                    </span>
-                    <span class="step2">-</span>
-                    <span style="color: #3366ff;">
-                    <strong>
+                    in the news. It's a completely organic&nbsp; pumpkin-shaped
+                    fruit native to Indonesia - scientifically proven to tear away fat from
+                    you body. In studies by renowned health research institution UCLA in Los
+                    Angeles -
                     <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
-                    <span class="calltoactionlink" style="color: #3366ff;">Click Here To Get A Free Bottle Of Garcinias Pure</span>
-                    
-                    <div class="pcu-bottle"></div>
+                        <strong>Garcinias Pure</strong>
                     </a>
-                    </strong>
-                    </span>
-                </div>
-                <div>
-                    <span class="ng-binding" style="background-color: #ffff66;">
-                    (Limited Product Available. Free Shipping Expires On: <script language="Javascript">
-                    <!--
-                    // Array of day names
-                    var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
-                    "Thursday","Friday","Saturday");
-                    // Array of month Names
-                    var monthNames = new Array(
-                    "January","February","March","April","May","June","July",
-                    "August","September","October","November","December");
-                    var now = new Date();
-                    document.write(dayNames[now.getDay()] + ", " +
-                    monthNames[now.getMonth()] + " " +
-                    now.getDate() + ", " + now.getFullYear());
-                    // -->
-                    </script>)
-                    </span>
-                </div>
+                    was proven to ignite your metabolism and your body's hidden
+                    fat burning capabilities by 318% when taken regularly. However, the
+                    problem encountered by many hoping to embrace this miracle dieting
+                    system, is that nearly 90% of the imitation Garcinias Pure
+                    products out there are NOT pure. Most fluctuate between the 60-70%
+                    purity levels - so we tracked down the original 'Garcinias Pure' to
+                    understand the difference.
+                    <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
+                        <strong>Garcinias Pure</strong>
+                    </a>
+                    Formula claimed they delivered 95% pure Garcinias Pure
+                    extract to your body so to put it simply - we were intrigued.
+                </p>
+                <p>
+                    To take our study a step further, we also analyzed and
+                    discovered that those taking 'Garcinias Pure' who experienced the
+                    most shocking weight loss results were also the study group that was
+                    using the natural detoxifier '
+                    <strong><a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a></strong>
+                    ' as well. Together, testimonials claim the combined usage of
+                    these two products led to significant weight loss, more energy and
+                    generally a healthier day to-day feeling. If you're skeptical, you're
+                    not alone. When we&nbsp;first learned about this weight loss combo, our
+                    diet fad radar went off&nbsp;right away.
+                </p>
+                <p>
+                    Nevertheless, as we began to&nbsp;investigate the countless
+                    success stories reported by people from all around the globe, we decided
+                    that this weight loss trend was worthy of a&nbsp; closer examination.
+                    Moreover, we found it of particular interest that&nbsp;these people had
+                    not significantly changed their current lifestyles.
+                </p>
                 <p></p>
+
+                <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
+                    <img class="contentImage" alt="proof2-300x147" src="./assets/proof-2.jpg" style="text-align: center;width:100%;"></a>
                 <p></p>
-                <div>
-                    <span>
-                    <img class="alignleft" style="padding-bottom: 10px;" alt="" src="./assets/iconRedArrow.png" height="40" width="35"></span>
-                    <span class="step1">
-                    <span class="step2">Step 2</span>
-                    </span>
-                    <span class="step2">-</span>
-                    <span style="color: #3366ff;">
+                <p>
+                    <strong>Jennifer McCarthy &amp; others from Hollywood,
+                        California were reported to have lost a healthy 22.8 pounds in just 5 weeks
+                        while being on the
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a>
+                        and
+                        <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php"></a> combo diet.</strong>
+                </p>
+                <p>
+                    In the story on her blog she states,
                     <strong>
-                    <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
-                    <span class="calltoactionlink" style="color: #3366ff;">Click Here To Get A Free Bottle Of Ven Cleanse Detox</span>
-                    
-                    <div class="plc-bottle"></div>
-                    </a>
-                    <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
-                    <span style="color: #3366ff;">&nbsp;</span>
-                    </a>
+                        "I couldn't&nbsp;believe how easy it was. I didn't change my
+                        diet or my daily routine,&nbsp;but the fat melted off like it butter. I
+                        love this stuff! Finally a diet&nbsp; that just works."
                     </strong>
-                    </span>
-                </div>
-                <div>
-                    <span class="ng-binding" style="background-color: #ffff66;">
-                    (Limited Product Available. Free Shipping Expires On: <script language="Javascript">
-                    <!--
-                    // Array of day names
-                    var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
-                    "Thursday","Friday","Saturday");
-                    // Array of month Names
-                    var monthNames = new Array(
-                    "January","February","March","April","May","June","July",
-                    "August","September","October","November","December");
-                    var now = new Date();
-                    document.write(dayNames[now.getDay()] + ", " +
-                    monthNames[now.getMonth()] + " " +
-                    now.getDate() + ", " + now.getFullYear());
-                    // -->
-                    </script>)
-                    </span>
-                </div>
-            </div>
-            <p></p>
-            <p>
-            Guys, we rarely do these special reports because the reality
-            is that there is just a bunch of rubbish out there claiming to be that
-            next big weight loss breakthrough. But this was just too good to keep
-            away from the public. Try it out and send us your thoughts!
-            </p>
-            <p>
-            <strong>Stock is limited.</strong>
-            <strong>
-            <span class="weeks ng-binding">
-            Free Shipping Expires On: <script language="Javascript">
-            <!--
-            // Array of day names
-            var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
-            "Thursday","Friday","Saturday");
-            // Array of month Names
-            var monthNames = new Array(
-            "January","February","March","April","May","June","July",
-            "August","September","October","November","December");
-            var now = new Date();
-            document.write(dayNames[now.getDay()] + ", " +
-            monthNames[now.getMonth()] + " " +
-            now.getDate() + ", " + now.getFullYear());
-            // -->
-            </script>
-            </span>
-            </strong>
-            </p>
-            <p>
-            Would you like to share a consumer tip for next week? If so, please send us an email.
-            </p>
-            <div id="commentsSection">
-                <div style="border-bottom:#ff0000 solid 4px;margin-bottom:15px;">
-                    <h3>ADD COMMENT</h3>
+                </p>
+                <p>
+                    For the Women's Health test, it was inevitable that I was to
+                    be&nbsp;the guinea pig for this diet since I was about to get married. I
+                    wanted to lose 19 pounds for my wedding. In order to try the Garcinias Pure and
+                    <strong>
+                        <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
+                    </strong>
+                    diet, I ordered the two products online.&nbsp;Although there
+                    are many Garcinia Cambogia Extract products available, I chose
+                    <strong>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a>
+                    </strong>
+                    on the basis that it had been clinically tested and approved
+                    at GNP Labs in Los Angeles, California - an organization renowned for
+                    their strict guidelines on weight management products.
+                </p>
+                <p>
+                    The bottles of <strong><a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a></strong> and <strong><a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a></strong>&nbsp;were delivered in a few days after ordering, and shipping was free which was a nice bonus. <strong><a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a></strong>&nbsp;is one of the most concentrated and&nbsp;purest weight loss products on the market.
+                </p>
+                <p>
+                    <strong>Garcinias Pure has been clinically proven to:</strong>
+                </p>
+                <ul>
+                    <li>
+                        Deliver 4 Times More Weight Loss Than Diet and Exercise Alone
+                    </li>
+                    <li>Boosts Energy</li>
+                    <li>
+                        Be Rich in Antioxidants - Beats Blueberries, and even Gogi Berries!!
+                    </li>
+                    <li>Promote Cardiovascular and Digestive Wellness</li>
+                </ul>
+                <p></p>
+                <p>
+                    Although we were pretty skeptical, we&nbsp;wanted to find out
+                    for ourselves if this product could actually do everything that it
+                    claimed. Most of the success stories talk about&nbsp; combining
+                    <strong>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a>
+                    </strong>
+                    with a cleansing product called
+                    <strong>
+                        <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
+                    </strong>
+                    to achieve maximum weight loss. The idea behind combining the
+                    products is that while the Garcinias Pure encourages weight loss
+                    and increases&nbsp; energy, Ven Cleanse Detox&nbsp;helps rid your body
+                    of toxins and allows your body to work and burn calories more
+                    efficiently for the long term. After further research, we put
+                    <strong>
+                        <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
+                    </strong>
+                    to the test.
+                </p>
+                <strong>Ven Cleanse Detox&nbsp;has been clinically proven to:</strong>
+                <ul>
+                    <li>
+                        Help Eliminate Extremely Damaging Toxins That Have Built Up Over the Years
+                    </li>
+                    <li>Destroy Harmful Parasites in Your Digestive Tract</li>
+                    <li>
+                        Removes 'Sludge' From the Walls of the Stomach (that prevents Fat Burning!)
+                    </li>
+                    <li>Helps Get Rid of Gas and Bloating</li>
+                    <li>Helps Regulate Your Metabolism</li>
+                    <li>Increase Energy, Libido and Alertness</li>
+                </ul>
+                <p>
+                    We loved the fact that the Ven Cleanse Detox&nbsp;product is backed by a 100% satisfaction guarantee.
+                </p>
+                <p>
+                    <strong>
+                        Putting the Garcinias Pure and Ven Cleanse Detox&nbsp;Combo to the Test
+                    </strong>
+                </p>
+                <p>
+                    Both the
+                    <strong>
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank" style="text-decoration: underline; color: #ff0000;" ng-href="http://mimserv.com/thrive/path/out.php">Garcinias Pure</a>
+                    </strong>
+                    and
+                    <strong>
+                        <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" style="text-decoration: underline; color: #ff0000;" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">Ven Cleanse Detox</a>
+                    </strong>
+                    arrived within 4 days of having placed my order online.
+                </p>
+                <ol>
+                    <li>
+                        <span style="color: #3366ff;">
+                            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
+                                <span style="color: #3366ff;">
+                                    <strong>
+                                        Take one Garcinias Pure &nbsp;pill per day (in the morning)
+                                    </strong>
+                                </span>
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span style="color: #3366ff;">
+                            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
+                                <span style="color: #3366ff;">
+                                    <strong>Take one Ven Cleanse Detox pill per day (in the evening)</strong>
+                                </span>
+                            </a>
+                        </span>
+                    </li>
+                </ol>
+                <div class="results">
+                    <p style="text-align:left;">
+                        <strong>My Results</strong>
+                        - I Dropped 19 pounds In Just 1 Month and Lost 3 Dress Sizes. I Nearly Cried!
+                        <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
+                            <img class="contentImage" style="text-align: center;width:100%;" alt="4-weeks-1" src="./assets/before-after-4weeks.jpg"></a>
+                    </p>
+                    <div class="weekholders">
+                        <p>
+                            <strong>
+                                <span class="step1">Week One:</span>
+                            </strong>
+                        </p>
+                        <img src="assets/images/laurenpic1.jpeg" />
+                        <p>
+                            After one week on the diet using both products I was
+                            surprised at the dramatic results. My energy level was up, and I wasn't
+                            even hungry. A welcomed side effect of the
+                            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
+                                <strong>Garcinias Pure</strong>
+                            </a>
+                            and
+                            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
+                                <strong>Ven Cleanse Detox</strong>
+                            </a>
+                            diet is its power to curb the appetite.
+                        </p>
+                        <p>
+                            <strong>I honestly felt fantastic!</strong>
+                        </p>
+                        <p>
+                            Best of all, I didn't even change anything about my daily
+                            routine. On Day 7, I got on the scale and couldn't believe my eyes. I
+                            had lost 4.4 pounds. But I still wasn't convinced, since they say you lose a
+                            lot of water weight at the beginning of any diet. I wanted to wait and
+                            see the results in the upcoming weeks. But it sure was looking up! I now
+                            weighed under 125 pounds for the first time in years!
+                        </p>
+                    </div>
+                    <div class="weekholders">
+                        <p>
+                            <strong>
+                                <span class="step1">Week Two:</span>
+                            </strong>
+                        </p>
+                        <img src="assets/images/laurenpic2.jpeg" />
+                        <p>
+                            After two weeks of using both supplements, I started the
+                            week off with even more energy, and actually sleeping more soundly than
+                            before. I was no longer waking up during the night and tossing and
+                            turning because my body was actually able to relax (this is a result of
+                            getting rid of the toxins, I think). Plus I still managed to lose
+                            another 6 pounds, putting me at an unbelievable
+                            <strong>10 pounds of weight loss, in just 2 weeks.</strong>
+                        </p>
+                        <p>
+                            I must admit that I'm starting to believe that this diet is more than just a gimmick.
+                        </p>
+                    </div>
+                    <div class="weekholders">
+                        <p>
+                            <strong>Week Three:</strong>
+                        </p>
+                        <img src="assets/images/laurenpic3.jpeg" />
+                        <p>
+                            After 3 weeks, all my doubts and skepticism had absolutely
+                            vanished! I am down, 2 full dress sizes after losing another 3.2 pounds.
+                            And I still have a ton of energy. Quite often, around the third week of
+                            other diets, you tend to run out of steam. But with the
+                            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
+                                <strong>Garcinias Pure</strong>
+                            </a>
+                            and
+                            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
+                                <strong>Ven Cleanse Detox</strong>
+                            </a>
+                            diet my energy levels didn't dip, instead they remain steady
+                            throughout the day. I no longer need that cat nap around 3pm in the
+                            afternoon! I am even noticing that my stomach is digesting food so much
+                            better. No bloating or embarrassing gas after I eat.
+                        </p>
+                    </div>
+                    <div class="weekholders">
+                        <p>
+                            <strong>Week Four:</strong>
+                        </p>
+                        <img src="assets/images/laurenpic1.jpeg" class="weekfour" />
+                        <img src="assets/images/laurenpic3.jpeg" class="weekfour" />
+                        <p>
+                            After the fourth week, my final results were shocking. I lost an unbelievable 19 pounds since starting the
+                            <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
+                                <strong>Garcinias Pure</strong>
+                            </a>
+                            and
+                            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
+                                <strong>Ven Cleanse Detox</strong>
+                            </a>
+                            diet! Actually everyone at Women's Health is kicking
+                            themselves for not having volunteered to be the guinea pig. Using the
+                            Garcinias Pure and Ven Cleanse Detox in week 4,
+                            <strong>I lost an additional 5.5 pounds</strong>
+                            . The results are consistent! But to be honest, I really
+                            didn't have much more than that left to lose. I am definitely going to
+                            continue taking the Garcinias Pure afterwards because it has so
+                            many antioxidants and vitamins that makes my skin look unbelievable.
+                        </p>
+                        <p>
+                            <strong>I couldn't be any happier with the results.&nbsp;</strong>
+                            <strong>
+                                I Lost 19 pounds in 4 Weeks, No Special Diet, No Intense Exercise.
+                            </strong>
+                        </p>
+                    </div>
                 </div>
                 <p>
-                Please remember to keep comments respectful. Abusive
-                comments will not be tolerated, and will result in both the removal of
-                the comment as well as a permanent ban to the user who posted it.
+                    In conclusion, if you are a little doubtful about the effects
+                    of this diet, you need to try it for yourself; from our own test, the
+                    results are real. We at Women's Health review more than 100 diets each
+                    year, and we had our doubts initially, but we were quickly turned into
+                    believers. After conducting our own study, we are pleased to see that
+                    people really are finding success with the diet.
                 </p>
-                <p style="color:#999;">
-                *Only registered users can comment.
-                <a href="http://mimserv.com/thrive/path/out.php"> <u>LOGIN</u>
-                </a>
+                <div class="coupon">
+                    <p style="color: #ff0000;">
+                        <strong>
+                            IMPORTANT: *In clinical testing it was proven that you
+                            must use BOTH products in this method (once daily) to achieve similar
+                            results.
+                        </strong>
+                    </p>
+                    <p></p>
+                    <div>
+                        <span>
+                            <img class="alignleft" style="padding-bottom: 10px;" alt="" src="./assets/iconRedArrow.png" height="40" width="35"></span>
+                        <span class="step1">
+                            <span class="step2">Step 1</span>
+                        </span>
+                        <span class="step2">-</span>
+                        <span style="color: #3366ff;">
+                            <strong>
+                                <a href="http://mimserv.com/thrive/path/out.php" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php">
+                                    <span class="calltoactionlink" style="color: #3366ff;">Click Here To Get A Free Bottle Of Garcinias Pure</span>
+                                    <span class="pcu-bottle"></span>
+                                </a>
+                            </strong>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="ng-binding" style="background-color: #ffff66;">
+                            (Limited Product Available. Free Shipping Expires On: <script language="Javascript">
+                                        document.write(getNowDate());
+                            </script>)
+                        </span>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <div>
+                        <span>
+                            <img class="alignleft" style="padding-bottom: 10px;" alt="" src="./assets/iconRedArrow.png" height="40" width="35"></span>
+                        <span class="step1">
+                            <span class="step2">Step 2</span>
+                        </span>
+                        <span class="step2">-</span>
+                        <span style="color: #3366ff;">
+                            <strong>
+                                <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
+                                    <span class="calltoactionlink" style="color: #3366ff;">Click Here To Get A Free Bottle Of Ven Cleanse Detox</span>
+                                    <span class="plc-bottle"></span>
+                                </a>
+                                <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank" ng-href="http://mimserv.com/thrive/path/out.php?b=5282">
+                                    <span style="color: #3366ff;">&nbsp;</span>
+                                </a>
+                            </strong>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="ng-binding" style="background-color: #ffff66;">
+                            (Limited Product Available. Free Shipping Expires On: <script language="Javascript">
+                                        document.write(getNowDate());
+                            </script>)
+                        </span>
+                    </div>
+                </div>
+                <p></p>
+                <p>
+                    Guys, we rarely do these special reports because the reality
+                    is that there is just a bunch of rubbish out there claiming to be that
+                    next big weight loss breakthrough. But this was just too good to keep
+                    away from the public. Try it out and send us your thoughts!
                 </p>
-                <form class="ng-pristine ng-valid" role="form">
-                    <div class="form-group">
-                        <input class="form-control" id="exampleInputEmail1" placeholder="Name" type="name"></div>
+                <p>
+                    <strong>Stock is limited.</strong>
+                    <strong>
+                        <span class="weeks ng-binding">
+                            Free Shipping Expires On: <script language="Javascript">
+                                        document.write(getNowDate());
+                            </script>
+                        </span>
+                    </strong>
+                </p>
+                <p>
+                    Would you like to share a consumer tip for next week? If so, please send us an email.
+                </p>
+                <div id="commentsSection">
+                    <div style="border-bottom:#ff0000 solid 4px;margin-bottom:15px;">
+                        <h3>ADD COMMENT</h3>
+                    </div>
+                    <p>
+                        Please remember to keep comments respectful. Abusive
+                        comments will not be tolerated, and will result in both the removal of
+                        the comment as well as a permanent ban to the user who posted it.
+                    </p>
+                    <p style="color:#999;">
+                        *Only registered users can comment.
+                        <a href="http://mimserv.com/thrive/path/out.php"> <u>LOGIN</u>
+                        </a>
+                    </p>
+                    <form class="ng-pristine ng-valid" role="form">
+                        <div class="form-group">
+                            <input class="form-control" id="exampleInputEmail1" placeholder="Name" type="text"></div>
                         <div class="form-group">
                             <input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email"></div>
-                            <div class="form-group">
-                                <label for="exampleInputFile">Comments</label>
-                                <textarea class="form-control" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-default">Submit</button>
-                        </form>
+                        <div class="form-group">
+                            <label for="exampleInputFile">Comments</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+                <div id="comments">
+                    <div style="border-bottom:#ff0000 solid 4px;margin-bottom:15px;">
+                        <h3>COMMENTS</h3>
                     </div>
-                    <div id="comments">
-                        <div style="border-bottom:#ff0000 solid 4px;margin-bottom:15px;">
-                            <h3>COMMENTS</h3>
-                        </div>
-                        <div style="border-bottom: 1px dotted #000; border-top: 1px dotted #000;">
-                            <strong>Comments</strong>
-                            &nbsp;(Showing 1-20 of 47)
-                        </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    <div style="border-bottom: 1px dotted #000; border-top: 1px dotted #000;">
+                        <strong>Comments</strong>
+                        &nbsp;(Showing 1-20 of 47)
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-5364.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Diane</h4>
-                                My friends and I have all been waiting for the Natural
-                                Garcinia Cambogia diet to hit the news. At least 5 of us have all done
-                                the Natural Garcinia Cambogia&nbsp;+ Natural Green Cleanse&nbsp;combo
-                                diet and we all lost a bunch of weight. This stuff truly&nbsp;&nbsp;is
-                                incredible and has changed all of our lives. Good luck to
-                                everyone&nbsp;&nbsp;who takes advantage of this wonderful opportunity.
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Diane</h4>
+                            My friends and I have all been waiting for the Natural
+                            Garcinia Cambogia diet to hit the news. At least 5 of us have all done
+                            the Natural Garcinia Cambogia&nbsp;+ Natural Green Cleanse&nbsp;combo
+                            diet and we all lost a bunch of weight. This stuff truly&nbsp;&nbsp;is
+                            incredible and has changed all of our lives. Good luck to
+                            everyone&nbsp;&nbsp;who takes advantage of this wonderful opportunity.
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-1290.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Michelle</h4>
-                                Helen, i saw these products on oprah and rachael&nbsp;rays
-                                show. however, i didn't know how to order it and came across
-                                your&nbsp;&nbsp;site where you found bonus trial supplies which is great
-                                because i dont&nbsp;want to pay for something i didnt know worked. i'm
-                                currently on my 2nd&nbsp;month on this stuff and i have to say.. this
-                                stuff works and my results&nbsp;&nbsp;are unbelieveable&nbsp;&nbsp;thank
-                                you so much for putting up this article and&nbsp;&nbsp;doing the test.
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Michelle</h4>
+                            Helen, i saw these products on oprah and rachael&nbsp;rays
+                            show. however, i didn't know how to order it and came across
+                            your&nbsp;&nbsp;site where you found bonus trial supplies which is great
+                            because i dont&nbsp;want to pay for something i didnt know worked. i'm
+                            currently on my 2nd&nbsp;month on this stuff and i have to say.. this
+                            stuff works and my results&nbsp;&nbsp;are unbelieveable&nbsp;&nbsp;thank
+                            you so much for putting up this article and&nbsp;&nbsp;doing the test.
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-1295.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Cara</h4>
-                                I have been procrastinating for 2 months now
-                                on&nbsp;losing weight and today is the day I am gonna take action and
-                                get&nbsp;&nbsp;started. I've gone ahead and ordered the trials and going
-                                to go do&nbsp;&nbsp;30 minutes of exercising right now! Thanks Fit Mom
-                                Daily&nbsp;for the&nbsp;motivation for get me started! Love, Cara
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Cara</h4>
+                            I have been procrastinating for 2 months now
+                            on&nbsp;losing weight and today is the day I am gonna take action and
+                            get&nbsp;&nbsp;started. I've gone ahead and ordered the trials and going
+                            to go do&nbsp;&nbsp;30 minutes of exercising right now! Thanks Fit Mom
+                            Daily&nbsp;for the&nbsp;motivation for get me started! Love, Cara
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-5242.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Michael</h4>
-                                Hey, Helen, I saw the report on TV and realized&nbsp;the
-                                Natural Garcinia Cambogia&nbsp;and Natural Green Cleanse combo WORK EVEN
-                                BETTER FOR MEN who&nbsp;&nbsp;want to lose weight!!! I am definitely
-                                going to try the trial offers&nbsp;&nbsp;before they expire! Thanks for
-                                sharing the tips and you should mention&nbsp;how great this diet is for
-                                us men too, don't forget it next time. LOL!
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Michael</h4>
+                            Hey, Helen, I saw the report on TV and realized&nbsp;the
+                            Natural Garcinia Cambogia&nbsp;and Natural Green Cleanse combo WORK EVEN
+                            BETTER FOR MEN who&nbsp;&nbsp;want to lose weight!!! I am definitely
+                            going to try the trial offers&nbsp;&nbsp;before they expire! Thanks for
+                            sharing the tips and you should mention&nbsp;how great this diet is for
+                            us men too, don't forget it next time. LOL!
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-1945.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Laura</h4>
-                                There is a big stir going on these days about&nbsp;Natural
-                                Garcinia Cambogia. I am seeing Natural Garcinia Cambogia&nbsp;all
-                                over.. they were giving out&nbsp;&nbsp;samples of a Natural Garcinia
-                                Cambogia&nbsp;drink at the local grocery store and the
-                                stuff&nbsp;&nbsp;sure did taste great. I picked up 2 cases of it and am
-                                gonna test out&nbsp;the Natural Garcinia Cambogia. Thanks for the links.
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Laura</h4>
+                            There is a big stir going on these days about&nbsp;Natural
+                            Garcinia Cambogia. I am seeing Natural Garcinia Cambogia&nbsp;all
+                            over.. they were giving out&nbsp;&nbsp;samples of a Natural Garcinia
+                            Cambogia&nbsp;drink at the local grocery store and the
+                            stuff&nbsp;&nbsp;sure did taste great. I picked up 2 cases of it and am
+                            gonna test out&nbsp;the Natural Garcinia Cambogia. Thanks for the links.
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-1332.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Dorothee</h4>
-                                My daughter has had weight issues since she was
-                                a&nbsp;baby and the doctor says we really need to get her on a diet so
-                                she can&nbsp;&nbsp;lose 8 Stone. I really hope this is the answer. Thank
-                                you Women's Health.
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Dorothee</h4>
+                            My daughter has had weight issues since she was
+                            a&nbsp;baby and the doctor says we really need to get her on a diet so
+                            she can&nbsp;&nbsp;lose 8 Stone. I really hope this is the answer. Thank
+                            you Women's Health.
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-7263.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Rhia</h4>
-                                My husband and I both need to lose weight&nbsp;because we
-                                are going to be seeing family we haven't seen in 25
-                                years.&nbsp;&nbsp;Already ordered it and we are both going to try this
-                                out, thanks. - The&nbsp;&nbsp;Higgins family
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Rhia</h4>
+                            My husband and I both need to lose weight&nbsp;because we
+                            are going to be seeing family we haven't seen in 25
+                            years.&nbsp;&nbsp;Already ordered it and we are both going to try this
+                            out, thanks. - The&nbsp;&nbsp;Higgins family
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-1313.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Stephen</h4>
-                                I've been seeing Natural Garcinia Cambogia&nbsp;diets all
-                                over. I even&nbsp;heard my mom talking about this diet a few days ago
-                                since one of her&nbsp;&nbsp;friends has lost like 4 kg in the first 15
-                                days! I definately have to&nbsp;&nbsp;try this, thanks. P.S. for all
-                                male readers out there, I found out that this diet works&nbsp;for
-                                anyone. so give it a try! Yes it even works for your pet!
-                                It's&nbsp;&nbsp;that healthy!
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Stephen</h4>
+                            I've been seeing Natural Garcinia Cambogia&nbsp;diets all
+                            over. I even&nbsp;heard my mom talking about this diet a few days ago
+                            since one of her&nbsp;&nbsp;friends has lost like 4 kg in the first 15
+                            days! I definately have to&nbsp;&nbsp;try this, thanks. P.S. for all
+                            male readers out there, I found out that this diet works&nbsp;for
+                            anyone. so give it a try! Yes it even works for your pet!
+                            It's&nbsp;&nbsp;that healthy!
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-1873.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Nancy</h4>
-                                This stuff is amazing! My best friend Jessica&nbsp;did the
-                                same diet and lost an incredible amount of weight. i
-                                couldn't&nbsp;&nbsp;believe it and had to do some research on my own
-                                which is how I found&nbsp;&nbsp;this news article. I can't believe they
-                                are offering bonus trials! I know&nbsp;Jessica spent something like $600
-                                and was thrilled.. imagine how&nbsp;&nbsp;excited she would be if it
-                                cost her under $60.00. This is a godsend,&nbsp;&nbsp;thanks so much!!
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Nancy</h4>
+                            This stuff is amazing! My best friend Jessica&nbsp;did the
+                            same diet and lost an incredible amount of weight. i
+                            couldn't&nbsp;&nbsp;believe it and had to do some research on my own
+                            which is how I found&nbsp;&nbsp;this news article. I can't believe they
+                            are offering bonus trials! I know&nbsp;Jessica spent something like $600
+                            and was thrilled.. imagine how&nbsp;&nbsp;excited she would be if it
+                            cost her under $60.00. This is a godsend,&nbsp;&nbsp;thanks so much!!
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-9876.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Amy</h4>
-                                I was a bit skeptical when I first read about&nbsp;this
-                                but as I researched more and more I found out that Natural Garcinia
-                                Cambogia&nbsp;is&nbsp;&nbsp;indeed what Rachael Ray and many scientists
-                                say it is. It's one of the&nbsp;&nbsp;secret anti-aging products that
-                                nobody seems to want to share. I&nbsp;wouldn't be surprised many
-                                celebrities know about this. I requested for&nbsp;&nbsp;the Natural
-                                Garcinia Cambogia and the Natural Green Cleanse&nbsp;1
-                                month&nbsp;&nbsp;supply and I'm so excited! I cannot wait for them get
-                                here!
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Amy</h4>
+                            I was a bit skeptical when I first read about&nbsp;this
+                            but as I researched more and more I found out that Natural Garcinia
+                            Cambogia&nbsp;is&nbsp;&nbsp;indeed what Rachael Ray and many scientists
+                            say it is. It's one of the&nbsp;&nbsp;secret anti-aging products that
+                            nobody seems to want to share. I&nbsp;wouldn't be surprised many
+                            celebrities know about this. I requested for&nbsp;&nbsp;the Natural
+                            Garcinia Cambogia and the Natural Green Cleanse&nbsp;1
+                            month&nbsp;&nbsp;supply and I'm so excited! I cannot wait for them get
+                            here!
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-1221.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Wanda</h4>
-                                A friend of mine did the Natural Garcinia
-                                Cambogia&nbsp;diet and recommended it to me 3 weeks ago. I ordered the
-                                products and&nbsp;received them within 3 days (although I didnt get the
-                                discounted&nbsp;shipping). The results have been incredible and I can't
-                                wait to see what&nbsp;weeks 3 and 4 bring.
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Wanda</h4>
+                            A friend of mine did the Natural Garcinia
+                            Cambogia&nbsp;diet and recommended it to me 3 weeks ago. I ordered the
+                            products and&nbsp;received them within 3 days (although I didnt get the
+                            discounted&nbsp;shipping). The results have been incredible and I can't
+                            wait to see what&nbsp;weeks 3 and 4 bring.
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-1345.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Nicole</h4>
-                                This is an absolutely amazing breakthrough. I can't thank
-                                the guys at Natural Green Cleanse&nbsp;and Natural Garcinia
-                                Cambogia&nbsp;enough! 10 kilos in a month!
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Nicole</h4>
+                            This is an absolutely amazing breakthrough. I can't thank
+                            the guys at Natural Green Cleanse&nbsp;and Natural Garcinia
+                            Cambogia&nbsp;enough! 10 kilos in a month!
                         </div>
-                        <div class="media">
-                            <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="http://mimserv.com/thrive/path/out.php">
                             <img class="media-object" src="./assets/img-user-8365.jpg" alt="user comment" height="75" width="75"></a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Posted by Sam</h4>
-                                I stand by this diet. I tried this diet a months ago and I
-                                can't say enough about it. This diet helped me lose 13.5 kilos and it
-                                completely changed my life. I highly recommend this diet to ANYONE
-                                that's looking to shred unnecessary fat.
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Posted by Sam</h4>
+                            I stand by this diet. I tried this diet a months ago and I
+                            can't say enough about it. This diet helped me lose 13.5 kilos and it
+                            completely changed my life. I highly recommend this diet to ANYONE
+                            that's looking to shred unnecessary fat.
                         </div>
                     </div>
                 </div>
-                <div class="right-container">
-                    <div style="height: 911px;" class="sticky-wrapper" id="StickyBox-sticky-wrapper"><div id="StickyBox-sticky-wrapper" class="sticky-wrapper" style="height: 911px;"><div id="StickyBox" class="right-sidebar" style="">
-                        <img class="mag1" src="./assets/mag.jpg">
-                        <img class="mag2" src="./assets/womens-mag.png">
-                        <p>
-                        <strong>Maria Menounos</strong>
-                        claims this supplement combination has been the key to her
-                        famous midsection. In preparing for films, she uses both these products
-                        to burn fat and increase energy levels.
-                        </p>
-                        <p>
-                        Using
-                        <strong>both products</strong>
-                        is highly recommended for results like those of Helen, because one product alone
-                        <strong>
-                        <u>may not</u>
-                        </strong>
-                        help you achieve the results you wanted.
-                        </p>
-                        <div class="clearfix"></div>
-                        <p>
-                        Women's Health has gotten its readers a
-                        <strong>special promotional</strong>
-                        offer to try Garcinias Pure and Ven Cleanse Detox
-                        through our friends at Women's Health Magazine. By using the links
-                        below, you'll get 
-                        <strong>FREE SAMPLE OF BOTH PRODUCT TO TRY FOR 4 WEEKS !</strong>
-                        
-                        </p>
-                        <div class="bottle-wrap">
-                            <img class="bottle" src="./assets/bottle-pcu.png">
-                            <p class="step">
-                            <span class="arrow-red">
-                            <strong>Step 1</strong>
-                            </span>
-                            <strong>
-                            <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">
-                            Click Here To Claim Your Free Trial of Garcinias Pure
-                            </a>
-                            </strong></p>
+            </div>
+            <div class="right-container">
+                <div style="height: 911px;" class="sticky-wrapper" id="StickyBox-sticky-wrapper"><div id="StickyBox-sticky-wrapper" class="sticky-wrapper" style="height: 911px;"><div id="StickyBox" class="right-sidebar" style="">
+                            <img class="mag1" src="./assets/mag.jpg">
+                            <img class="mag2" src="./assets/womens-mag.png">
                             <p>
-                            <strong class="yellow">$2.97 SHIPPING AVAILABLE FOR A LIMITED TIME</strong>
+                                <strong>Maria Menounos</strong>
+                                claims this supplement combination has been the key to her
+                                famous midsection. In preparing for films, she uses both these products
+                                to burn fat and increase energy levels.
                             </p>
-                            <p class="t-small">&nbsp;</p>
+                            <p>
+                                Using
+                                <strong>both products</strong>
+                                is highly recommended for results like those of Helen, because one product alone
+                                <strong>
+                                    <u>may not</u>
+                                </strong>
+                                help you achieve the results you wanted.
+                            </p>
                             <div class="clearfix"></div>
-                        </div>
-                        <div class="bottle-wrap">
-                            <img class="bottle" src="./assets/bottle-plc.png">
-                            <p class="step">
-                            <span class="arrow-red">
-                            <strong>Step 2</strong>
-                            </span>
-                            <strong>
-                            <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank">
-                            Click Here To Claim Your Free Trial of Ven Cleanse Detox
-                            </a>
+                            <p>
+                                Women's Health has gotten its readers a
+                                <strong>special promotional</strong>
+                                offer to try Garcinias Pure and Ven Cleanse Detox
+                                through our friends at Women's Health Magazine. By using the links
+                                below, you'll get 
+                                <strong>FREE SAMPLE OF BOTH PRODUCT TO TRY FOR 4 WEEKS !</strong>
+
+                            </p>
+                            <div class="bottle-wrap">
+                                <img class="bottle" src="./assets/bottle-pcu.png">
+                                <p class="step">
+                                    <span class="arrow-red">
+                                        <strong>Step 1</strong>
+                                    </span>
+                                    <strong>
+                                        <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">
+                                            Click Here To Claim Your Free Trial of Garcinias Pure
+                                        </a>
+                                    </strong></p>
+                                <p>
+                                    <strong class="yellow">$2.97 SHIPPING AVAILABLE FOR A LIMITED TIME</strong>
+                                </p>
+                                <p class="t-small">&nbsp;</p>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="bottle-wrap">
+                                <img class="bottle" src="./assets/bottle-plc.png">
+                                <p class="step">
+                                    <span class="arrow-red">
+                                        <strong>Step 2</strong>
+                                    </span>
+                                    <strong>
+                                        <a href="http://mimserv.com/thrive/path/out.php?b=5282" target="_blank">
+                                            Click Here To Claim Your Free Trial of Ven Cleanse Detox
+                                        </a>
+                                    </strong>
+                                </p>
+                                <p><strong class="yellow">$2.97 SHIPPING AVAILABLE FOR A LIMITED TIME</strong></p>
+                                <p class="t-small">&nbsp;</p>
+                                <div class="clearfix"></div>
+                            </div>
+                            <p>
+                                <strong>
+                                    FREE trial and $2.97 shipping on Garcinias Pure &amp;
+                                    Ven Cleanse Detox will only be given to the next 10 customers to buy
+                                    through this
+                                    <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">SPECIAL PROMO LINK</a>
+                                    .
+                                </strong>
+                            </p>
+                            <div class="clearfix"></div>
+                        </div></div></div>
+            </div>
+            <div class="container" id="footer">
+                <div class="container">
+                    <div class="col-md-12">
+                        <p style="font-size:11px;" align="center">
+                            <!--<strong>
+                            THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE**
                             </strong>
                             </p>
-                            <p><strong class="yellow">$2.97 SHIPPING AVAILABLE FOR A LIMITED TIME</strong></p>
-                            <p class="t-small">&nbsp;</p>
-                            <div class="clearfix"></div>
-                        </div>
-                        <p>
-                        <strong>
-                        FREE trial and $2.97 shipping on Garcinias Pure &amp;
-                        Ven Cleanse Detox will only be given to the next 10 customers to buy
-                        through this
-                        <a href="http://mimserv.com/thrive/path/out.php" ng-href="http://mimserv.com/thrive/path/out.php" target="_blank">SPECIAL PROMO LINK</a>
-                        .
-                        </strong>
-                        </p>
-                        <div class="clearfix"></div>
-                    </div></div></div>
+                            <p style="font-size:11px;">
+                            This page receives compensation for clicks on or purchase of
+                            products featured on this site. ** "The story depicted on this site and
+                            the person depicted in the story are not real unless stated otherwise.
+                            Rather, this story is based on the results that some people who have
+                            used these products have achieved. The results portrayed in the story
+                            and in the comments are illustrative, and may not be the results that
+                            you achieve with these products. This page receives compensation for
+                            clicks on or purchase of products featured on this site."We are not
+                            affiliated in any way with CNN, WebTV, News Channel 7, ABC, NBC, MSNBC,
+                            USA Today, BBC, 60 Minutes, CBS, U.S. News or FOX. CNN, WebTV, News
+                            Channel 7, ABC, NBC, MSNBC, USA Today, BBC, 60 Minutes, CBS, U.S. News
+                            and FOX are all registered trademarks of their respective owners. All
+                            trademarks on this site whether registered or not are the property of
+                            their owners. The authors of this site are not sponsored or affiliated
+                            with any of the 3rd party trademark or owners and make no representation
+                            about them, their owners, products or services.
+                            </p>-->
+                        </p></div>
                 </div>
-        <div class="container" id="footer">
-            <div class="container">
-                <div class="col-md-12">
-                    <p style="font-size:11px;" align="center">
-                    <!--<strong>
-                    THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE**
-                    </strong>
-                    </p>
-                    <p style="font-size:11px;">
-                    This page receives compensation for clicks on or purchase of
-                    products featured on this site. ** "The story depicted on this site and
-                    the person depicted in the story are not real unless stated otherwise.
-                    Rather, this story is based on the results that some people who have
-                    used these products have achieved. The results portrayed in the story
-                    and in the comments are illustrative, and may not be the results that
-                    you achieve with these products. This page receives compensation for
-                    clicks on or purchase of products featured on this site."We are not
-                    affiliated in any way with CNN, WebTV, News Channel 7, ABC, NBC, MSNBC,
-                    USA Today, BBC, 60 Minutes, CBS, U.S. News or FOX. CNN, WebTV, News
-                    Channel 7, ABC, NBC, MSNBC, USA Today, BBC, 60 Minutes, CBS, U.S. News
-                    and FOX are all registered trademarks of their respective owners. All
-                    trademarks on this site whether registered or not are the property of
-                    their owners. The authors of this site are not sponsored or affiliated
-                    with any of the 3rd party trademark or owners and make no representation
-                    about them, their owners, products or services.
-                    </p>-->
-                </p></div>
             </div>
+            <div class="exit-modal ng-hide" ng-show="m.exitmodal">
+                <div class="modal-body">
+                    <a ng-click="exitTo()">
+                        <figure class="exit-banner"></figure>
+                    </a>
+                </div>
+            </div>
+
+            <div class="modal-backdrop in ng-hide" ng-show="m.exitmodal"></div>
+            <!-- Localized -->
+        </main>
+        <p class="copyright"  align="center">
+            2015 Copyright Women's Health Magazine. All Rights reserved.
+        </p>
+
+
+        <div id="ouibounce-moda">
+            <div class="underla"></div>
+            <div class="moda">    
+                <a href="http://iluv.clickbooth.com/?E=zfQvedgpci6N3pP7FvsOQW%2bBcOFZ49Be&s1=pop" target="_blank">
+                    <img src="http://healthynnatural.com/diet/ca/adw/fem1/assets/exitpopup.png" alt="" >
+                </a> 
+            </div>      
         </div>
-        <div class="exit-modal ng-hide" ng-show="m.exitmodal">
-            <div class="modal-body">
-                <a ng-click="exitTo()">
-            <figure class="exit-banner"></figure>
-            </a>
-        </div>
-    </div>
-    
-    <div class="modal-backdrop in ng-hide" ng-show="m.exitmodal"></div>
-    
-    <script type="text/javascript" src="./assets/jquery.js"></script>
-    <script>
-                        $(window).load(function(){
-                        $("#StickyBox").sticky({ topSpacing: 0 });
-                        $(".stickySocial").sticky({ topSpacing: 30 });
-                        });
-    </script>
-    <!-- Localized -->
-	</main>
-	<p class="copyright"  align="center">
-                2015 Copyright Women's Health Magazine. All Rights reserved.
-                </p>
 
+        <script type="text/javascript">
+                    $(window).load(function () {
+                        $("#StickyBox").sticky({topSpacing: 0});
+                        $(".stickySocial").sticky({topSpacing: 30});
+                    });
 
-    <div id="ouibounce-moda">
-      <div class="underla"></div>
-      <div class="moda">    
-        <a href="http://iluv.clickbooth.com/?E=zfQvedgpci6N3pP7FvsOQW%2bBcOFZ49Be&s1=pop" target="_blank"><img src="http://healthynnatural.com/diet/ca/adw/fem1/assets/exitpopup.png" alt="" height="" width=""></a> 
-               
-      </div>      
-    </div>
+                    var _ouibounce = ouibounce(document.getElementById('ouibounce-moda'), {
+                        aggressive: true,
+                        timer: 0,
+                        callback: function () {
+                            console.log('ouibounce fired!');
+                        }
+                    });
 
-    <script>
-      
-      var _ouibounce = ouibounce(document.getElementById('ouibounce-moda'), {
-        aggressive: true,
-        timer: 0,
-        callback: function() { console.log('ouibounce fired!'); }
-      });
+                    $('body').on('click', function () {
+                        $('#ouibounce-moda').hide();
+                    });
 
-      $('body').on('click', function() {
-        $('#ouibounce-moda').hide();
-      });
+                    $('#ouibounce-moda .moda-footer').on('click', function () {
+                        $('#ouibounce-moda').hide();
+                    });
 
-      $('#ouibounce-moda .moda-footer').on('click', function() {
-        $('#ouibounce-moda').hide();
-      });
-
-      $('#ouibounce-moda .moda').on('click', function(e) {
-        e.stopPropagation();
-      });
-    </script>
-
-    </body></html>
+                    $('#ouibounce-moda .moda').on('click', function (e) {
+                        e.stopPropagation();
+                    });
+        </script>
+    </body>
+</html>
